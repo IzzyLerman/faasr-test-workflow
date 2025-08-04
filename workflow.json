@@ -71,10 +71,10 @@
         }
     },
     "ActionContainers": {
-        "r_func": "public.ecr.aws/d5b4d9x9/izzylerman/lambda-r:latest",
-        "add_operation": "public.ecr.aws/d5b4d9x9/izzylerman/lambda:latest",
-        "log": "public.ecr.aws/d5b4d9x9/izzylerman/lambda:latest",
-        "folders": "public.ecr.aws/d5b4d9x9/izzylerman/lambda:latest"
+        "r_func": "public.ecr.aws/d5b4d9x9/lambda-r:latest",
+        "add_operation": "public.ecr.aws/d5b4d9x9/lambda:latest",
+        "log": "public.ecr.aws/d5b4d9x9/lambda:latest",
+        "folders": "public.ecr.aws/d5b4d9x9/lambda:latest"
     },
     "FunctionCRANPackage": {
         "r_log": [
