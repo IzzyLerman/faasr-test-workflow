@@ -7,6 +7,12 @@
             "ActionRepoName": "FaaSr-py-testing",
             "Branch": "main",
             "Token": "My_GitHub_Account_TOKEN"
+        },
+        "My_Lambda_Account": {
+            "FaaSType": "Lambda",
+            "Region": "us-east-1",
+            "AccessKey": "My_S3_Bucket_ACCESS_KEY",
+            "SecretKey": "My_S3_Bucket_SECRET_KEY"
         }
     },
     "DataStores": {
@@ -21,7 +27,7 @@
     "ActionList": {
         "add_operation": {
             "FunctionName": "add_rpc",
-            "FaaSServer": "My_GitHub_Account",
+            "FaaSServer": "My_Lambda_Account",
             "Type": "Python",
             "Arguments": {
                 "folder": "testadd",
@@ -35,7 +41,7 @@
         },
         "r_func": {
             "FunctionName": "r_log",
-            "FaaSServer": "My_GitHub_Account",
+            "FaaSServer": "My_Lambda_Account",
             "Type": "R",
             "Arguments": {
                 "message": "testing testing testing"
@@ -46,7 +52,7 @@
         },
         "delete": {
             "FunctionName": "print_and_delete",
-            "FaaSServer": "My_GitHub_Account",
+            "FaaSServer": "My_Lambda_Account",
             "Type": "Python",
             "Arguments": {
                 "folder": "testadd",
@@ -58,17 +64,17 @@
         },
         "folders": {
             "FunctionName": "test_list_folders",
-            "FaaSServer": "My_GitHub_Account",
+            "FaaSServer": "My_Lambda_Account",
             "Type": "Python",
             "Arguments": {},
             "InvokeNext": []
         }
     },
     "ActionContainers": {
-        "r_func": "ghcr.io/nolcut/ga-rpc-python-r:0.1.7",
-        "add_operation": "ghcr.io/nolcut/ga-rpc-python:0.1.7",
-        "log": "ghcr.io/nolcut/ga-rpc-python:0.1.7",
-        "folders": "ghcr.io/nolcut/ga-rpc-python:0.1.7"
+        "r_func": "ghcr.io/izzylerman/lambda-r:latest",
+        "add_operation": "ghcr.io/izzylerman/lambda:latest",
+        "log": "ghcr.io/izzylerman/lambda:latest",
+        "folders": "ghcr.io/izzylerman/lambda:latest"
     },
     "FunctionCRANPackage": {
         "r_log": [
