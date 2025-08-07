@@ -77,10 +77,10 @@
         }
     },
     "ActionContainers": {
-        "r_func": "742858820208.dkr.ecr.us-east-1.amazonaws.com/lambda-r:latest",
-        "add_operation": "742858820208.dkr.ecr.us-east-1.amazonaws.com/lambda:latest",
-        "log": "742858820208.dkr.ecr.us-east-1.amazonaws.com/lambda-r:latest",
-        "folders": "742858820208.dkr.ecr.us-east-1.amazonaws.com/lambda-r:latest"
+        "r_func": "145342739029.dkr.ecr.us-east-1.amazonaws.com/faasr-r",
+        "add_operation": "145342739029.dkr.ecr.us-east-1.amazonaws.com/faasr-python",
+        "log": "145342739029.dkr.ecr.us-east-1.amazonaws.com/faasr-python",
+        "folders": "145342739029.dkr.ecr.us-east-1.amazonaws.com/faasr-python"
     },
     "FunctionCRANPackage": {
         "r_log": [
