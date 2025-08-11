@@ -13,7 +13,7 @@
             "Region": "us-east-1",
             "AccessKey": "My_Lambda_Account_ACCESS_KEY",
             "SecretKey": "My_Lambda_Account_SECRET_KEY"
-        },0
+        },
           "My_OW_Account": {
             "FaaSType": "OpenWhisk",
             "Namespace": "guest",
