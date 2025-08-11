@@ -13,12 +13,13 @@
             "Region": "us-east-1",
             "AccessKey": "My_Lambda_Account_ACCESS_KEY",
             "SecretKey": "My_Lambda_Account_SECRET_KEY"
-        },
-        "My_Openwhisk_Account":{
-            "FaaSType": "Openwhisk",
-            "Endpoint": "",
-            "Namespace":"",
-            "API.key":""
+        },0
+          "My_OW_Account": {
+            "FaaSType": "OpenWhisk",
+            "Namespace": "guest",
+            "SSL": "False",
+            "Endpoint": "ow.faasr.io:31002",
+            "API.key": "23bc46b1-71f6-4ed5-8c54-816aa4f8c502:123zO3xZCLrMN6v2BKK1dXYFpXlPkccOFqm12CdAsMgRU4VrNZ9lyGVCGuMDGIwP"
         }
     },
     "DataStores": {
