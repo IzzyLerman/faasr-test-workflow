@@ -17,7 +17,6 @@
           "My_OW_Account": {
             "FaaSType": "OpenWhisk",
             "Namespace": "guest",
-            "SSL": "False",
             "Endpoint": "ow.faasr.io:31002",
             "API.key": "23bc46b1-71f6-4ed5-8c54-816aa4f8c502:123zO3xZCLrMN6v2BKK1dXYFpXlPkccOFqm12CdAsMgRU4VrNZ9lyGVCGuMDGIwP"
         }
@@ -31,7 +30,7 @@
             "SecretKey": "My_S3_Bucket_SECRET_KEY"
         }
     },
-    "ActionList": {
+    "FunctionList": {
         "add_operation": {
             "FunctionName": "add_rpc",
             "FaaSServer": "My_OW_Account",
